@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "chrome-plugin",
+	"description": "",
+	"version": "1.0.0",
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	},
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"notifications",
+		"webRequest",
+		"webRequestBlocking",
+		"storage"
+	],
+	"background": {
+		"scripts": [
+			"js/chunk-vendors.js",
+			"js/background.js"
+		]
+	},
+	"icons": {
+		"16": "assets/images/icon16.png",
+		"48": "assets/images/icon48.png",
+		"128": "assets/images/icon128.png"
+	}
+}
