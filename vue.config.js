@@ -1,7 +1,7 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const path = require('path')
 const pages = {}
-const chromeName = ['newtab', 'routers']
+const chromeName = ['routers']
 
 chromeName.forEach(name => {
 	pages[name] = {
