@@ -71,7 +71,7 @@
 		"git-cz": "^4.7.6",
 		"husky": "^4.3.8",
 		"lint-staged": "^11.1.2",
-		"node-sass": "^5.0.0",
+		"node-sass": "^7.0.0",
 		"postcss": "^8.3.11",
 		"postcss-loader": "^4.3.0",
 		"postcss-prefix-selector": "^1.12.0",
